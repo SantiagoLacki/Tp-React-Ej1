@@ -2,8 +2,10 @@ import HolaMundo from "./Components/HolaMundo"
 
 function App() {
 
+  const mensaje = "My Friend!"
+
   return (
-      <HolaMundo/>
+      <HolaMundo mensajeProps={mensaje}/>
   )
 }
 
